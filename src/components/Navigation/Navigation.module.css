@@ -1,0 +1,24 @@
+.navigation {
+  height: 72px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation img, .navigation h2 {
+  cursor: pointer;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navigation li {
+  cursor: pointer;
+}
+.navigation Link {
+  text-decoration: none;
+}

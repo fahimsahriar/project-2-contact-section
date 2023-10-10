@@ -1,0 +1,82 @@
+.container h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.container p{
+    font-weight: 500;
+}
+
+.contact_content{
+    display: flex;
+    gap:40px;
+}
+.contact_form, .contact_image{
+    display: block;
+    width: 100%;
+}
+.top_btn{
+    display: flex;
+    gap: 40px;
+}
+.top_btn_column{
+    display: block;
+    width: 100%;
+}
+.contact_form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.contact_image{
+    display: flex;
+    justify-content: center;
+}
+.contact_image img{
+    width: 72%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.form label{
+    position: absolute;
+    left: 20px;
+    top:-12px;
+    background-color: rgb(242 255 255);
+    padding: 0 15px;
+}
+.form input{
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 36px;
+    background: transparent;
+    padding: 10px;
+}
+
+.form .Message{
+    min-height: 100px;
+    background: transparent;
+    padding: 20px 10px 10px 10px;
+
+}
+.submit_container{
+    display: flex;
+    justify-content: end;
+}
+.submit_col{
+    display: block;
+    width: calc(50% - 20px);
+}
+
+@media screen and (max-width:800px){
+    .contact_content{
+        flex-direction: column-reverse;
+    }
+}
