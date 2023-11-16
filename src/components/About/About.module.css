@@ -4,6 +4,7 @@
     display: flex;
     align-items: top;
     height: calc(100vh-72px);
+    padding: 0px 40px;
   }
   
   .hero_content {
