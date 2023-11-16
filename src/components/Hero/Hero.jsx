@@ -17,13 +17,13 @@ function HeroSection() {
         <div className={styles.available}>
             <p>Also Available On</p>
             <div className={styles.available_platform}>
-                <img src="../../public/images/amazon.png" alt="" />
-                <img src="../../public/images/flipkart.png" alt="" />
+                <img src="/images/amazon.png" alt="" />
+                <img src="/images/flipkart.png" alt="" />
             </div>
         </div>
       </div>
       <div className={styles.hero_image}>
-        <img src="../../public/images/shoe_image.png" alt="" />
+        <img src="/images/shoe_image.png" alt="" />
       </div>
     </div>
   );
